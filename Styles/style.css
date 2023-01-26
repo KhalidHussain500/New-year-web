@@ -20,11 +20,12 @@
     width: 100%;
     height: 100vh;
     background-image: url("../images/banner/banner3.png");
-    background-size: cover;
+    background-size: cover; 
     display: flex;
-    justify-content: right;
+    justify-content:right;
     text-align: right;
     align-items: center;
+
     
 }
 .Text-container{
@@ -34,14 +35,14 @@
 }
 .btn{
     height: 50px;
-    padding-left: 35px; 
-    padding-right: 35px;
+    padding-left: 30px; 
+    padding-right: 30px;
     background-color: white;
     color: rgb(100, 100, 243);
     border: 0;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
      
 }
 .year-container{
@@ -100,7 +101,6 @@
     width: 1100px;
     height: 300px;
     font-family: 'Work Sans', sans-serif;
-    
     background-image:linear-gradient(to right ,#294cf5,transparent), url('../images/watch.png'); 
     background-position:center;
     background-size:cover;
@@ -110,22 +110,8 @@
     margin-top: 100px;
     border-radius: 10px; 
 }   
-/* linear-gradient(to right,rgb(84, 84, 230),rgba(0,0,240, 0)) */
-    /* width: 100%;
-    height: 300px;
-    font-family: 'Work Sans', sans-serif;
-    background-image:linear-gradient(to right,rgba(0,0,255,0.5),rgba(0,0,240, 0)), url('../images/watch.png');
-    
-    background-position:center; 
-    background-repeat: no-repeat;
-    background-size: 1100px;
-    background-repeat: no-repeat;
 
-    margin-top: 150px;
-    margin-bottom: 150px; */
     
-    
-
 
 .text{
     /* text-align:left;
@@ -136,14 +122,14 @@
 }
 .text button{
     height: 50px;
-    padding-left: 35px; 
-    padding-right: 35px;
+    padding-left: 30px; 
+    padding-right: 30px;
     background-color: white;
     color: rgb(100, 100, 243);
     border: 0;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -151,31 +137,59 @@
 
 .Footer{
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: space-around;
     border: 2px solid yellow;
     background-color: black;
-    margin-top: 100px;
-    /*   */ 
+    margin-top: 130px;
+ 
 }
 
 .contact{
+    width: 100%;
     color: white;
     text-align: left;
-    margin-top: 100px;
-    margin-left: 210px;
-    margin-right: 200px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 100px;
+    /* border: 2px solid yellow; */
 
 }
 .contact a{
     text-decoration: none;
-    gap: 5px;
+    gap: 10px;
 }
 .subscribe{
-    color: white;
+    width: 100%;
+    color: whitesmoke;
     text-align: left;
-    margin-right: 400px;
-    margin-top: 100px;
+    padding-right: 100px;
+    padding-left: 120px; 
+    margin-left: 150px;
+    margin-top: 150px;
+    /* border: 2px solid yellow;  */
+}
+
+.subscribe input[type="email"]{
+    width: 55%;
+    margin-bottom: 20px;
+    border: 0;
+    height: 25px;
+    padding: 18px 30px; 
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.sub-btn{
+    height: 55px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    color: whitesmoke;
+    background-color: #294cf5;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px; 
 }
