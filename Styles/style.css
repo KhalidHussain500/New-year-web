@@ -140,7 +140,7 @@
     height: 600px;
     display: flex;
     justify-content: space-around;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     background-color: black;
     margin-top: 130px;
  
