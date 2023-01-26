@@ -8,6 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+Pro:wght@300&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
 *{
     
     margin: 0px;
@@ -74,7 +76,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-left: 210px;
     margin-right: 210px;
 }
@@ -98,7 +100,8 @@
     width: 1100px;
     height: 300px;
     font-family: 'Work Sans', sans-serif;
-    background-image:linear-gradient(to right,rgba(0,0,255,0.5),rgba(0,0,240, 0)), url('../images/watch.png'); 
+    
+    background-image:linear-gradient(to right ,#294cf5,transparent), url('../images/watch.png'); 
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -107,9 +110,7 @@
     margin-top: 100px;
     border-radius: 10px; 
 }   
-
-
-
+/* linear-gradient(to right,rgb(84, 84, 230),rgba(0,0,240, 0)) */
     /* width: 100%;
     height: 300px;
     font-family: 'Work Sans', sans-serif;
@@ -144,4 +145,37 @@
     font-weight: 700;
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
+}
+
+/*Footer style  */
+
+.Footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    border: 2px solid yellow;
+    background-color: black;
+    margin-top: 100px;
+    /*   */ 
+}
+
+.contact{
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 210px;
+    margin-right: 200px;
+
+}
+.contact a{
+    text-decoration: none;
+    gap: 5px;
+}
+.subscribe{
+    color: white;
+    text-align: left;
+    margin-right: 400px;
+    margin-top: 100px;
 }
