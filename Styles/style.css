@@ -6,7 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+Pro:wght@300&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 
@@ -45,6 +44,8 @@
     font-size: 18px;
      
 }
+/* banner style ends here */
+
 .year-container{
     width: 100%;
     height: 100vh;
@@ -64,6 +65,33 @@
     margin-left: 100px;
     margin-right: 300px;
 } 
+/* img container style ends here */
+
+/* mission style start here */
+
+.mission-parent-container{
+    width: 100%;
+    height: 500px;
+    margin: 50px auto 0px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-first{
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-first img{
+    width: 100px;
+}
+
+/* Mission style ends here  */
+
 .my-plan{
     width: 100%;
     height: 100vh;
@@ -133,7 +161,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/*Footer style  */
+/*Footer style here */
 
 .Footer{
     width: 100%;
